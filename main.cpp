@@ -14,6 +14,6 @@ int main() {
     std::cout << "Enter a move: " << std::endl;
     std::cin >> input;
 
-    board.checkMove(input, input);
+    board.movePiece(input, input);
     return 0;
 }

@@ -25,7 +25,7 @@ void Board::printBoard() {
 // Check moves
 void Board::movePiece(std::string& pieceToMove, std::string& pieceMoveTo) {
     // Extract piece selected
-    
+
     // TODO:: Check if space is empty
     // TODO:: Check if enemy piece can be taken
 }
