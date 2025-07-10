@@ -10,8 +10,6 @@
 
     class Board {
     private:
-        // State for piece that is active
-        enum Piece { N, K, Q, P, B, R };
 
         // Track whose turn it is
         enum Player { WHITE, BLACK };
@@ -34,7 +32,7 @@
 
         bool checkWin();
 
-        void checkMove(std::string, std::string);
+        void movePiece(std::string&, std::string&);
 };
 
 

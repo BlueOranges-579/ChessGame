@@ -23,25 +23,9 @@ void Board::printBoard() {
 }
 
 // Check moves
-void Board::checkMove(std::string pieceToMove, std::string pieceMoveTo) {
+void Board::movePiece(std::string& pieceToMove, std::string& pieceMoveTo) {
     // Extract piece selected
-    enum Piece pieceSelected;
-
-    // TODO:: Set rules for each piece and check move validation
-    switch (pieceToMove[0]) {
-        case 'r': pieceSelected = R;
-            break;
-        case 'b': pieceSelected = B;
-            break;
-        case 'k': pieceSelected = K;
-            break;
-        case 'n': pieceSelected = N;
-            break;
-        case 'q': pieceSelected = Q;
-            break;
-        case 'p': pieceSelected = P;
-            break;
-    }
+    
     // TODO:: Check if space is empty
     // TODO:: Check if enemy piece can be taken
 }
