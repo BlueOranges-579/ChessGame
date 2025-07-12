@@ -30,6 +30,7 @@ class Board {
         auto getPlayer();
         void movePiece();
         void getMove(std::string& startPosition, std::string& endPosition);
+        void setMove();
 };
 
 

@@ -7,6 +7,11 @@
 #include <iostream>
 #include <cctype>
 
+
+// TODO:: Add piece movement rules
+// TODO:: Check for Check and Checkmate
+// TODO:: Capture piece logic
+
 // Function that prints the board onto the console
 void Board::printBoard() {
     std::cout << std::endl;
@@ -36,7 +41,7 @@ void Board::movePiece() {
     std::string startPosition;
     std::string endPosition;
     //  Extract the piece to be moved
-    char piece;
+    char piece = ' ';
     bool validMove = false;
 
     if (player == WHITE) {
@@ -84,10 +89,25 @@ void Board::movePiece() {
 
 // Get the piece and new placement indexes
 void Board::getMove(std::string& startPosition, std::string& endPosition) {
-    std::cout << "Enter piece to move: ";
-    std::cin >> startPosition;
-    std::cout << "Enter target location: ";
-    std::cin >> endPosition;
+    bool validInput = false;
+    do {
+        std::cout << "Enter piece to move: ";
+        std::cin >> startPosition;
+        std::cout << "Enter target location: ";
+        std::cin >> endPosition;
+
+        // Validate the size of the input to ensure is in correct format
+        if (startPosition.length() < 3 || endPosition.length() < 2 || startPosition.length() > 3 || endPosition.length() > 2) {
+            std::cout << "Not a valid formated input. (Ex. Pc4) " << std::endl;
+        }
+        else if (!isalpha(startPosition[0]) || !isalpha(endPosition[0]) || !isalpha(startPosition[1]) || !isdigit(startPosition[2]) || !isdigit(endPosition[1])) {
+            std::cout << "Not a valid formated input. (Ex. Pc4) " << std::endl;
+        }
+        else {
+            validInput = true;
+        }
+
+    }while (!validInput);
 }
 
 auto Board::getPlayer() {

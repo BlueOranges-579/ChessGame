@@ -15,7 +15,12 @@ private:
 public:
     void setPieceInPlay(char&);
     void removePieceInPlay(char&);
-
+    bool pawnValidMove();
+    bool kingValidMove();
+    bool knightValidMove();
+    bool bishopValidMove();
+    bool rookValidMove();
+    bool queenValidMove();
 };
 
 

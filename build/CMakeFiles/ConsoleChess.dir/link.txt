@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ConsoleChess.dir/link.d CMakeFiles/ConsoleChess.dir/main.cpp.o CMakeFiles/ConsoleChess.dir/Board.cpp.o CMakeFiles/ConsoleChess.dir/Pieces.cpp.o CMakeFiles/ConsoleChess.dir/Game.cpp.o -o ConsoleChess

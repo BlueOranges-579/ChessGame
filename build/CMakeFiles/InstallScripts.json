@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/blueoranges/Dev+/ConsoleChess/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

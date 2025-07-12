@@ -1,0 +1,3 @@
+/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles/ConsoleChess.dir
+/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles/edit_cache.dir
+/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles/rebuild_cache.dir
