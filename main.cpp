@@ -1,19 +1,11 @@
 #include <iostream>
-#include "Board.h"
+#include "Game.h"
 
 int main() {
-    std::string input;
 
-    // Create a Board object
-    Board board = Board();
+    // Initialize the main game
+    Game game = Game();
+    game.InitGame();
 
-    // Print the board onto the screen
-    board.printBoard();
-
-    // Enter a move
-    std::cout << "Enter a move: " << std::endl;
-    std::cin >> input;
-
-    board.movePiece(input, input);
     return 0;
 }

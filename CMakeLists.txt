@@ -7,4 +7,6 @@ add_executable(ConsoleChess main.cpp
         Board.cpp
         Board.h
         Pieces.cpp
-        Pieces.h)
+        Pieces.h
+        Game.cpp
+        Game.h)
