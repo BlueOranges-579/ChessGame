@@ -72,76 +72,76 @@ include CMakeFiles/ConsoleChess.dir/flags.make
 CMakeFiles/ConsoleChess.dir/codegen:
 .PHONY : CMakeFiles/ConsoleChess.dir/codegen
 
-CMakeFiles/ConsoleChess.dir/main.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
-CMakeFiles/ConsoleChess.dir/main.cpp.o: /home/blueoranges/Dev+/ConsoleChess/main.cpp
-CMakeFiles/ConsoleChess.dir/main.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConsoleChess.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/main.cpp.o -MF CMakeFiles/ConsoleChess.dir/main.cpp.o.d -o CMakeFiles/ConsoleChess.dir/main.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/main.cpp
+CMakeFiles/ConsoleChess.dir/src/main.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
+CMakeFiles/ConsoleChess.dir/src/main.cpp.o: /home/blueoranges/Dev+/ConsoleChess/src/main.cpp
+CMakeFiles/ConsoleChess.dir/src/main.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConsoleChess.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/src/main.cpp.o -MF CMakeFiles/ConsoleChess.dir/src/main.cpp.o.d -o CMakeFiles/ConsoleChess.dir/src/main.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/src/main.cpp
 
-CMakeFiles/ConsoleChess.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/main.cpp > CMakeFiles/ConsoleChess.dir/main.cpp.i
+CMakeFiles/ConsoleChess.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/src/main.cpp > CMakeFiles/ConsoleChess.dir/src/main.cpp.i
 
-CMakeFiles/ConsoleChess.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/main.cpp -o CMakeFiles/ConsoleChess.dir/main.cpp.s
+CMakeFiles/ConsoleChess.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/src/main.cpp -o CMakeFiles/ConsoleChess.dir/src/main.cpp.s
 
-CMakeFiles/ConsoleChess.dir/Board.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
-CMakeFiles/ConsoleChess.dir/Board.cpp.o: /home/blueoranges/Dev+/ConsoleChess/Board.cpp
-CMakeFiles/ConsoleChess.dir/Board.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConsoleChess.dir/Board.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/Board.cpp.o -MF CMakeFiles/ConsoleChess.dir/Board.cpp.o.d -o CMakeFiles/ConsoleChess.dir/Board.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/Board.cpp
+CMakeFiles/ConsoleChess.dir/src/Board.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
+CMakeFiles/ConsoleChess.dir/src/Board.cpp.o: /home/blueoranges/Dev+/ConsoleChess/src/Board.cpp
+CMakeFiles/ConsoleChess.dir/src/Board.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConsoleChess.dir/src/Board.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/src/Board.cpp.o -MF CMakeFiles/ConsoleChess.dir/src/Board.cpp.o.d -o CMakeFiles/ConsoleChess.dir/src/Board.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/src/Board.cpp
 
-CMakeFiles/ConsoleChess.dir/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/Board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/Board.cpp > CMakeFiles/ConsoleChess.dir/Board.cpp.i
+CMakeFiles/ConsoleChess.dir/src/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/src/Board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/src/Board.cpp > CMakeFiles/ConsoleChess.dir/src/Board.cpp.i
 
-CMakeFiles/ConsoleChess.dir/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/Board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/Board.cpp -o CMakeFiles/ConsoleChess.dir/Board.cpp.s
+CMakeFiles/ConsoleChess.dir/src/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/src/Board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/src/Board.cpp -o CMakeFiles/ConsoleChess.dir/src/Board.cpp.s
 
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.o: /home/blueoranges/Dev+/ConsoleChess/Pieces.cpp
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConsoleChess.dir/Pieces.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/Pieces.cpp.o -MF CMakeFiles/ConsoleChess.dir/Pieces.cpp.o.d -o CMakeFiles/ConsoleChess.dir/Pieces.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/Pieces.cpp
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o: /home/blueoranges/Dev+/ConsoleChess/src/Pieces.cpp
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o -MF CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o.d -o CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/src/Pieces.cpp
 
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/Pieces.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/Pieces.cpp > CMakeFiles/ConsoleChess.dir/Pieces.cpp.i
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/src/Pieces.cpp > CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.i
 
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/Pieces.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/Pieces.cpp -o CMakeFiles/ConsoleChess.dir/Pieces.cpp.s
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/src/Pieces.cpp -o CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.s
 
-CMakeFiles/ConsoleChess.dir/Game.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
-CMakeFiles/ConsoleChess.dir/Game.cpp.o: /home/blueoranges/Dev+/ConsoleChess/Game.cpp
-CMakeFiles/ConsoleChess.dir/Game.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConsoleChess.dir/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/Game.cpp.o -MF CMakeFiles/ConsoleChess.dir/Game.cpp.o.d -o CMakeFiles/ConsoleChess.dir/Game.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/Game.cpp
+CMakeFiles/ConsoleChess.dir/src/Game.cpp.o: CMakeFiles/ConsoleChess.dir/flags.make
+CMakeFiles/ConsoleChess.dir/src/Game.cpp.o: /home/blueoranges/Dev+/ConsoleChess/src/Game.cpp
+CMakeFiles/ConsoleChess.dir/src/Game.cpp.o: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/blueoranges/Dev+/ConsoleChess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConsoleChess.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConsoleChess.dir/src/Game.cpp.o -MF CMakeFiles/ConsoleChess.dir/src/Game.cpp.o.d -o CMakeFiles/ConsoleChess.dir/src/Game.cpp.o -c /home/blueoranges/Dev+/ConsoleChess/src/Game.cpp
 
-CMakeFiles/ConsoleChess.dir/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/Game.cpp > CMakeFiles/ConsoleChess.dir/Game.cpp.i
+CMakeFiles/ConsoleChess.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConsoleChess.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueoranges/Dev+/ConsoleChess/src/Game.cpp > CMakeFiles/ConsoleChess.dir/src/Game.cpp.i
 
-CMakeFiles/ConsoleChess.dir/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/Game.cpp -o CMakeFiles/ConsoleChess.dir/Game.cpp.s
+CMakeFiles/ConsoleChess.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConsoleChess.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueoranges/Dev+/ConsoleChess/src/Game.cpp -o CMakeFiles/ConsoleChess.dir/src/Game.cpp.s
 
 # Object files for target ConsoleChess
 ConsoleChess_OBJECTS = \
-"CMakeFiles/ConsoleChess.dir/main.cpp.o" \
-"CMakeFiles/ConsoleChess.dir/Board.cpp.o" \
-"CMakeFiles/ConsoleChess.dir/Pieces.cpp.o" \
-"CMakeFiles/ConsoleChess.dir/Game.cpp.o"
+"CMakeFiles/ConsoleChess.dir/src/main.cpp.o" \
+"CMakeFiles/ConsoleChess.dir/src/Board.cpp.o" \
+"CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o" \
+"CMakeFiles/ConsoleChess.dir/src/Game.cpp.o"
 
 # External object files for target ConsoleChess
 ConsoleChess_EXTERNAL_OBJECTS =
 
-ConsoleChess: CMakeFiles/ConsoleChess.dir/main.cpp.o
-ConsoleChess: CMakeFiles/ConsoleChess.dir/Board.cpp.o
-ConsoleChess: CMakeFiles/ConsoleChess.dir/Pieces.cpp.o
-ConsoleChess: CMakeFiles/ConsoleChess.dir/Game.cpp.o
+ConsoleChess: CMakeFiles/ConsoleChess.dir/src/main.cpp.o
+ConsoleChess: CMakeFiles/ConsoleChess.dir/src/Board.cpp.o
+ConsoleChess: CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o
+ConsoleChess: CMakeFiles/ConsoleChess.dir/src/Game.cpp.o
 ConsoleChess: CMakeFiles/ConsoleChess.dir/build.make
 ConsoleChess: CMakeFiles/ConsoleChess.dir/compiler_depend.ts
 ConsoleChess: CMakeFiles/ConsoleChess.dir/link.txt

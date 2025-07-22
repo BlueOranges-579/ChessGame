@@ -2,8 +2,8 @@
 // Created by blueoranges on 7/10/25.
 //
 
-#include "Board.h"
-#include "Pieces.h"
+#include "../inc/Board.h"
+#include "../inc/Pieces.h"
 #include <iostream>
 #include <cctype>
 

@@ -2,10 +2,10 @@ ConsoleChess: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
-  CMakeFiles/ConsoleChess.dir/main.cpp.o \
-  CMakeFiles/ConsoleChess.dir/Board.cpp.o \
-  CMakeFiles/ConsoleChess.dir/Pieces.cpp.o \
-  CMakeFiles/ConsoleChess.dir/Game.cpp.o \
+  CMakeFiles/ConsoleChess.dir/src/main.cpp.o \
+  CMakeFiles/ConsoleChess.dir/src/Board.cpp.o \
+  CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o \
+  CMakeFiles/ConsoleChess.dir/src/Game.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -41,13 +41,13 @@ ConsoleChess: \
 
 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
-CMakeFiles/ConsoleChess.dir/main.cpp.o:
+CMakeFiles/ConsoleChess.dir/src/main.cpp.o:
 
-CMakeFiles/ConsoleChess.dir/Board.cpp.o:
+CMakeFiles/ConsoleChess.dir/src/Board.cpp.o:
 
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.o:
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o:
 
-CMakeFiles/ConsoleChess.dir/Game.cpp.o:
+CMakeFiles/ConsoleChess.dir/src/Game.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so:
 

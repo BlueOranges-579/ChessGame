@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/blueoranges/Dev+/ConsoleChess/Board.cpp" "CMakeFiles/ConsoleChess.dir/Board.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/Board.cpp.o.d"
-  "/home/blueoranges/Dev+/ConsoleChess/Game.cpp" "CMakeFiles/ConsoleChess.dir/Game.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/Game.cpp.o.d"
-  "/home/blueoranges/Dev+/ConsoleChess/Pieces.cpp" "CMakeFiles/ConsoleChess.dir/Pieces.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/Pieces.cpp.o.d"
-  "/home/blueoranges/Dev+/ConsoleChess/main.cpp" "CMakeFiles/ConsoleChess.dir/main.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/main.cpp.o.d"
+  "/home/blueoranges/Dev+/ConsoleChess/src/Board.cpp" "CMakeFiles/ConsoleChess.dir/src/Board.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/src/Board.cpp.o.d"
+  "/home/blueoranges/Dev+/ConsoleChess/src/Game.cpp" "CMakeFiles/ConsoleChess.dir/src/Game.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/src/Game.cpp.o.d"
+  "/home/blueoranges/Dev+/ConsoleChess/src/Pieces.cpp" "CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o.d"
+  "/home/blueoranges/Dev+/ConsoleChess/src/main.cpp" "CMakeFiles/ConsoleChess.dir/src/main.cpp.o" "gcc" "CMakeFiles/ConsoleChess.dir/src/main.cpp.o.d"
   "" "ConsoleChess" "gcc" "CMakeFiles/ConsoleChess.dir/link.d"
   )
 

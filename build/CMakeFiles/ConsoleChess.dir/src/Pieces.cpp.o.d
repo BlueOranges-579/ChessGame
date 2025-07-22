@@ -1,6 +1,7 @@
-CMakeFiles/ConsoleChess.dir/Pieces.cpp.o: \
- /home/blueoranges/Dev+/ConsoleChess/Pieces.cpp \
- /usr/include/stdc-predef.h /home/blueoranges/Dev+/ConsoleChess/Pieces.h \
+CMakeFiles/ConsoleChess.dir/src/Pieces.cpp.o: \
+ /home/blueoranges/Dev+/ConsoleChess/src/Pieces.cpp \
+ /usr/include/stdc-predef.h \
+ /home/blueoranges/Dev+/ConsoleChess/src/../inc/Pieces.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
